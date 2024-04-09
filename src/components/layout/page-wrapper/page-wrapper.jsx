@@ -4,13 +4,11 @@ import Footer from "../footer/footer";
 import MainPage from "../../pages/main-page";
 
 // обертка для страниц
-function PageWrapper() {
+function PageWrapper({ ...prop }) {
   return (
     <React.Fragment>
       <Header />
-      <MainPage>
-
-      </MainPage>
+      <MainPage {...prop} />
       <Footer />
     </React.Fragment>
 

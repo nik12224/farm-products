@@ -2,11 +2,11 @@ import React from "react";
 import Hero from "../blocks/hero/hero";
 import Advantages from "../blocks/advantages/advantages";
 
-function MainPage() {
+function MainPage({ farms }) {
   return (
     <React.Fragment>
       <Hero />
-      <Advantages />
+      <Advantages farms={farms} />
     </React.Fragment>
   );
 }
