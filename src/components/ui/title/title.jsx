@@ -1,10 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Title() {
   return (
-    <React.Fragment>
-
-    </React.Fragment>
+    <h1 className="title">Магазин фермерских продуктов с доставкой</h1>
   );
 }
 
