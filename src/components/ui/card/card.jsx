@@ -1,7 +1,7 @@
 import React from "react";
 
-function Advantages() {
+function Card() {
   return <React.Fragment></React.Fragment>;
 }
 
-export default Advantages;
+export default Card;
