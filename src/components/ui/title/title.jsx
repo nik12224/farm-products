@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-function Title() {
+function Title({ children }) {
   return (
-    <h1 className="title">Магазин фермерских продуктов с доставкой</h1>
+    <h1 className="title">{children}</h1>
   );
 }
 

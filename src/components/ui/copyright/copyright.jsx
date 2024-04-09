@@ -1,7 +1,9 @@
 import React from "react";
 
 function Copyright() {
-  return <React.Fragment></React.Fragment>;
+  return (
+    <span>Создано 2024</span>
+  );
 }
 
 export default Copyright;
