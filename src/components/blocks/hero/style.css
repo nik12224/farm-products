@@ -1,4 +1,6 @@
 .hero {
+  max-width: 1280px;
+  margin: 0 auto;
   height: 600px;
   background: #D8ECFE;
   padding-left: 90px;
