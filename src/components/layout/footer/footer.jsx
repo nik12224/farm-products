@@ -1,14 +1,13 @@
 import React from "react";
 import Logo from "../../ui/logo/logo";
-import "./style.css";
-import Copyright from "../../ui/copyright/copyright";
+import { StyledSection, Copyright } from "./styles";
 
 function Footer() {
   return (
-    <footer>
+    <StyledSection as="footer">
       <Logo />
-      <Copyright />
-    </footer>
+      <Copyright>Создано 2024</Copyright>
+    </StyledSection>
   );
 }
 

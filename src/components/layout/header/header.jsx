@@ -1,16 +1,14 @@
 import React from "react";
-import Button from "../../ui/button/button";
 import Logo from "../../ui/logo/logo";
-import "./style.css"
+import Nav from "../nav/nav";
+import { StyledSection } from "./styles";
 
 function Header() {
   return (
-    <header>
+    <StyledSection as="header">
       <Logo />
-      <Button>
-        Купить
-      </Button>
-    </header>
+      <Nav />
+    </StyledSection>
   );
 }
 

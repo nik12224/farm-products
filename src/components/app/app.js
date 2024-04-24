@@ -1,6 +1,6 @@
 import React from "react";
 import PageWrapper from "../layout/page-wrapper/page-wrapper";
-import farmList from "../../mocks/farmList";
+import features from "../../mocks/features";
 import { GlobalStyle } from "./styles";
 
 
@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <GlobalStyle />
-      <PageWrapper farms={farmList}>Контент страницы</PageWrapper>
+      <PageWrapper features={features}>Контент страницы</PageWrapper>
     </>
   );
 }
